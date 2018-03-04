@@ -1,0 +1,18 @@
+<!doctype html>
+<title>Upload new File</title>
+<h1>Upload new File</h1>
+<form method=post enctype=multipart/form-data>
+  <input type=file name=file>
+  <input type=submit name="filter" value="Remove Name">
+  <input type=submit name="filter" value="Filter Name and Email">
+</form>
+
+  {% with messages = get_flashed_messages() %}
+  {% if messages %}
+  <p class=flashes>
+    {% for message in messages %}
+    {{ message }}
+    {% endfor %}
+  </p>
+  {% endif %}
+  {% endwith %}

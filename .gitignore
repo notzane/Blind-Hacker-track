@@ -1,0 +1,8 @@
+__pycache__/
+*.txt
+*.xml
+.idea/
+venv/
+resume.txt
+test.py
+test2.py
