@@ -33,6 +33,9 @@ PyPDF2
 
 unidecode
 
+### Note:
+need to run nltk.dowload() before running
+
 # Sources Used:
 
 ## NLTK
