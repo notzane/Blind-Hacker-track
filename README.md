@@ -1,8 +1,39 @@
 # **ResumeBias**
-Disrupt the Disrupt
+## Blind Web App
+### Disrupt the District 2018
+
+# Demo
+http://www.webapp3-dev4.us-east-1.elasticbeanstalk.com
+
+# Purpose
+To support equality and diversity in the hiring process.
+
+## Why
+White male applicants recieve up to 36% more callbacks than their peers based on their names.
+
+## What
+Blind strips the name off of the resume to reduce racial or gender bias during the first round of hiring.
+
+## How
+Blind uses natural laguage processing to identify the name and email to generate a new resume.
+
+# Usage
+Upload your resume in PDF format on the demo website. Choose how much information you want to remove by clicking the buttons below the submission box. The new PDF will automatically download onto your computer.
+
+# Dependencies
+Python 3.6+
+
+nltk (Stanford NLP module optional)
+
+numpy
+
+pdfminer.six
+
+PyPDF2
+
+unidecode
 
 # Sources Used:
-
 
 ## NLTK
 Bird, Steven, Edward Loper and Ewan Klein (2009), Natural Language Processing with Python. O'Reilly Media Inc. (nltk.org)
