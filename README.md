@@ -34,7 +34,7 @@ PyPDF2
 unidecode
 
 ### Note:
-need to run nltk.dowload() and choose before running entire program
+need to run nltk.dowload() and choose book before running entire program
 
 # Sources Used:
 
