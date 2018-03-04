@@ -3,7 +3,7 @@
 ### Disrupt the District 2018
 
 # Demo
-[resumeblind.com]
+[resumeblind.com](resumeblind.com)
 
 
 # Purpose
